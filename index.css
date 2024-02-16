@@ -1,3 +1,57 @@
-body {
-    background-image: linear-gradient(red, yellow);
+.grakchat {
+    background-image: linear-gradient(#803c99, #df8dfd);
+    font-family: Arial;
+    color: white;
+}
+.vego {
+    background-image: linear-gradient(#2a6318, #659e54);
+    font-family: Arial;
+    color: white;
+}
+
+.app_title {
+    display: block;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    margin-top: 5vw;
+}
+.app_author {
+    display: block;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30vw;
+    margin-top: 5vw;
+    border-radius: 2vw;
+}
+
+.promo_text {
+    display: block;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 5vw;
+    font-weight: bold;
+}
+
+.google_play {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
+}
+
+.app_store {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
 }
